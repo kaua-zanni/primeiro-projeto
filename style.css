@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&display=swap');
 *{
-    margin: 10px;
-    padding: 10px;
     font-family: "Lugrasimo", cursive;
     flex-wrap: wrap;
 }
@@ -9,13 +7,16 @@
 
 body {
     height: 100vh;
-    background-image:url(imagem.png);
+    background-image:url('imagem.png');
     color: white;
     text-align: center;
+    box-sizing: border-box;
 }
 
 h1{
     font-size: 100px;
+    margin: 20px;
+    padding: 20px;
 }
 strong{
    color: #F608EF;
@@ -24,21 +25,23 @@ strong{
    padding: 5px;
    margin: 5px;
    border-radius: 20px;
+   margin: 20px;
+   padding: 20px;
 }
 P{
     font-family: verdana;
     font-size: 20px;
     color: rgb(238, 233, 233);
+    margin: 20px;
+    padding: 20px;
 }
 .sobre-mim{
     font-family: verdana;
     font-size: 20px;
 }
-img{
-    width: 400px;
-    height:400px;   
-    border-radius: 25px;
-    border: 2px solid #73AD21;
+.fiveicon{
+    width:60px;
+    height:60px;   
 }
 .botao{
     border: solid 2px #bb1bae;
@@ -48,13 +51,58 @@ img{
     width: 250px;
     font-size: 25px;
     font-weight: 800;
+    text-decoration: none;
+    padding: 15px;
+    margin:  50px 0 50px 0;
+
+}
+.controle{
+    width: 400px;
+    height:400px;   
+    border-radius: 25px;
+    border: 2px solid #73AD21;
 }
 .foto{
     display: flex;
     justify-content: center;
-
+    margin: 50px 0 0 0;
 }
 .apresentacao{
     display: flex;
     flex-direction: column;
+}
+a:hover{
+    border: solid 2px #fa0a0a;
+}
+.links{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+.rodape{
+    color: #070607;
+    background-color: #070607;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 10px 10px 10px 10px;
+    margin: 50px 0 0 0;
+}
+.cabesario{
+    color: #f3ecf3;
+    background-color: #1f0c77;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 2% 0 0 10%;
+    margin: 50px 0 50px 0;
+}
+.sublink{
+    display: flex;
+    flex-direction: column;
+}
+.cabesario_menu{
+    display: flex;
+    gap: 80px;
 }

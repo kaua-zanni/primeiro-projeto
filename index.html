@@ -7,22 +7,30 @@
         <link rel="stylesheet" href="style.css">                                        
     </head>
 
-    <body>                                 <!--<b>- Texto em negri ,<strong>- Texto importante,<i>- Texto em itálico,<em>- Texto enfatizado-->
-        <header></header>                  <!--<mark>- Texto marcado,<small>- Texto menor,<del>- Texto excluído,<ins>- Texto inserido-->
-        <main>            <!--<sub>- Texto subscrito,<sup>- Texto sobrescrito-->
+    <body>                                
+        <header class="cabesario">
+            <nav class="cabesario_menu">
+                <a class="menu">home</a>
+                <a class="menu">sobre mim</a>
+            </nav>
+        </header>             
+        <main>          
             <div class="apresentacao">
                 <h1>Melhorando meu portiforio com <strong>front-end</strong></h1>
                 <p class="sobre-mim">Eu adoro apreder html pois me permite criar páginas web incríveis e interativas. Com HTML, posso estruturar o conteúdo de forma organizada e acessível para os usuários. Além disso, a linguagem me possibilita incorporar elementos visuais, como imagens, vídeos e animações, tornando a experiência do usuário ainda mais cativante. Aprender HTML abre um mundo de possibilidades criativas e me permite desenvolver habilidades essenciais para atuar no universo da programação web.</p>
-                <section class="botoes">
-                    <a href="https://github.com/kaua-zanni"><button class="botao">Perfiu do github</button></a>
-                    <a href="https://github.com/kaua-zanni/logica-js-projeto_inicial"><button class="botao">Portiforio</button></a>
-                </section>
-                <br>
-            </div>
-            <div class="foto">
-                <img src="controle.png" alt="imagen do controle" >
+                <div class="links">
+                    <div>
+                        <img src="controle.png" alt="imagen do controle" class="controle" >
+                        </div>
+                    <div class="sublink">
+                        <a href="https://github.com/kaua-zanni" class="botao"><img src="github.png" class="fiveicon">github</a>
+                        <a href="https://github.com/kaua-zanni/logica-js-projeto_inicial" class="botao"><img src="github.png" class="fiveicon">Portiforio</a>
+                    </div>
+                </div>
             </div>
         </main>
-        <footer></footer>
+        <footer class="rodape">
+            <p>desevolvimento senac minas</p>
+        </footer>
     </body>
 </html>
