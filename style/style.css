@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-image:url('imagem.png');
+    background-image:url(/assets/imagem.png);
     color: white;
     text-align: center;
     box-sizing: border-box;
@@ -53,7 +53,7 @@ P{
     font-weight: 800;
     text-decoration: none;
     padding: 15px;
-    margin:  50px 0 50px 0;
+    margin:  40px 0 40px 0;
 
 }
 .controle{
@@ -78,7 +78,7 @@ a:hover{
     display: flex;
     gap: 60px;
     justify-content: center;
-    margin: 50px 0 0 0;
+    margin: 40px 0 0 0;
 }
 .rodape{
     color: #070607;
