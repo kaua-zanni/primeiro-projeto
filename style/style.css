@@ -1,27 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&display=swap');
-*{
-    font-family: "Lugrasimo", cursive;
-    flex-wrap: wrap;
+
+:root{
+    --cor-primaria: #143b25;
+    --cor-cabesario:  #201e20;
+    --cor-home: #be4bbe;
+    --cor-texto: #000000;
+    --cor-titulo: white;
+    --cor-borda: #5c0606;
+    --cor-titulo-forte: #ff00c8;
+    --cor-selecionar: red;
+    --cor-butao: #389b9b;
+    --cor-texto-butao: #050525;
+    --fonte: "Lugrasimo", cursive;
 }
 
-
+*{
+    font-family:var(--fonte);
+    flex-wrap: wrap;
+}
+.cabesario{
+    color: var(--cor-home);
+    background-color:var(--cor-cabesario);
+    text-align: center;
+    font-weight: 600;
+    font-size: 4vh;
+    padding: 2% 0 0 10%;
+    margin: 50px 0 50px 0;
+}
+.sublink{
+    display: flex;
+    flex-direction: column;
+}
+.cabesario_menu{
+    display: flex;
+    gap: 80px;
+}
+.menu{
+    text-decoration: none;
+}
 body {
     height: 100vh;
-    background-image:url(/assets/imagem.png);
-    color: white;
+    background-color:var(--cor-primaria);
     text-align: center;
     box-sizing: border-box;
 }
 
 h1{
-    font-size: 100px;
+    font-size: 10vh;
     margin: 20px;
     padding: 20px;
+    color: var(--cor-titulo);
 }
 strong{
-   color: #F608EF;
+   color:var(--cor-titulo-forte);
    font-weight: bold;
-   border: 2px solid #73AD21;
+   border: 2px solid var(--cor-borda);
    padding: 5px;
    margin: 5px;
    border-radius: 20px;
@@ -30,24 +63,23 @@ strong{
 }
 P{
     font-family: verdana;
-    font-size: 20px;
-    color: rgb(238, 233, 233);
+    font-size: 3vh;
+    color: var(--cor-texto);
     margin: 20px;
     padding: 20px;
 }
-.sobre-mim{
-    font-family: verdana;
-    font-size: 20px;
+h2{
+    color: var(--cor-titulo);
 }
 .fiveicon{
     width:60px;
     height:60px;   
 }
 .botao{
-    border: solid 2px #bb1bae;
+    border: solid 4px var(--cor-borda);
     border-radius: 20px;
-    color: rgb(5, 5, 37);
-    background-color: #09FCFC;
+    color: var(--cor-texto-butao);
+    background-color: var(--cor-butao);
     width: 250px;
     font-size: 25px;
     font-weight: 800;
@@ -60,7 +92,7 @@ P{
     width: 400px;
     height:400px;   
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px solid var(--cor-borda);
 }
 .foto{
     display: flex;
@@ -71,8 +103,8 @@ P{
     display: flex;
     flex-direction: column;
 }
-a:hover{
-    border: solid 2px #fa0a0a;
+.menu:hover{
+    color: var(--cor-selecionar);
 }
 .links{
     display: flex;
@@ -81,28 +113,15 @@ a:hover{
     margin: 40px 0 0 0;
 }
 .rodape{
-    color: #070607;
-    background-color: #070607;
+    color: var(--cor-cabesario);
+    background-color:var(--cor-cabesario);
     text-align: center;
     font-weight: 600;
     font-size: 24px;
     padding: 10px 10px 10px 10px;
     margin: 50px 0 0 0;
 }
-.cabesario{
-    color: #f3ecf3;
-    background-color: #1f0c77;
-    text-align: center;
-    font-weight: 600;
-    font-size: 24px;
-    padding: 2% 0 0 10%;
-    margin: 50px 0 50px 0;
-}
-.sublink{
-    display: flex;
-    flex-direction: column;
-}
-.cabesario_menu{
-    display: flex;
-    gap: 80px;
+.botao:hover{
+    border: solid 4px var(--cor-selecionar);
+    color: var(--cor-selecionar);
 }
