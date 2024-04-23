@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&display=swap');
 
 :root{
-    --cor-primaria: #143b25;
+    --cor-primaria: #0d4425;
     --cor-cabesario:  #201e20;
     --cor-home: #be4bbe;
     --cor-texto: #000000;
@@ -9,7 +9,7 @@
     --cor-borda: #5c0606;
     --cor-titulo-forte: #ff00c8;
     --cor-selecionar: red;
-    --cor-butao: #389b9b;
+    --cor-butao: #295e5e;
     --cor-texto-butao: #050525;
     --fonte: "Lugrasimo", cursive;
 }
@@ -89,8 +89,8 @@ h2{
 
 }
 .controle{
-    width: 400px;
-    height:400px;   
+    width: 65vh;
+    height:65vh;   
     border-radius: 25px;
     border: 2px solid var(--cor-borda);
 }
@@ -124,4 +124,27 @@ h2{
 .botao:hover{
     border: solid 4px var(--cor-selecionar);
     color: var(--cor-selecionar);
+}
+@media(max-width:1200px) {
+    h1{
+        font-size: 5vh;
+    }
+    p{
+        font-size: 2vh;
+    }
+    .controle{
+        width: 30vh;
+        height: 30vh; 
+    }
+    .cabesario{
+        font-size: 2.5vh;
+    }
+    .botao{
+        width: 27vh;
+        font-size: 25px;
+        font-weight: 800;
+        text-decoration: none;
+        padding: 15px;
+        margin:  40px 0 40px 0;
+    }
 }
