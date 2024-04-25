@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&display=swap');
+
+:root{
+    --cor-primaria: #0d4425;
+    --cor-cabesario:  #201e20;
+    --cor-home: #be4bbe;
+    --cor-texto: #000000;
+    --cor-titulo: white;
+    --cor-borda: #5c0606;
+    --cor-titulo-forte: #ff00c8;
+    --cor-selecionar: red;
+    --cor-butao: #295e5e;
+    --cor-texto-butao: #050525;
+    --fonte: "Lugrasimo", cursive;
+}
+.formulario{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 3vh;
+}
+.caixa{
+    width: 30vh;
+    font-size: 1.5vh;
+}

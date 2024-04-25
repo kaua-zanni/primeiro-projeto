@@ -52,14 +52,14 @@ h1{
     color: var(--cor-titulo);
 }
 strong{
-   color:var(--cor-titulo-forte);
-   font-weight: bold;
-   border: 2px solid var(--cor-borda);
-   padding: 5px;
-   margin: 5px;
-   border-radius: 20px;
-   margin: 20px;
-   padding: 20px;
+    color:var(--cor-titulo-forte);
+    font-weight: bold;
+    border: 2px solid var(--cor-borda);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 P{
     font-family: verdana;
@@ -125,6 +125,7 @@ h2{
     border: solid 4px var(--cor-selecionar);
     color: var(--cor-selecionar);
 }
+
 @media(max-width:1200px) {
     h1{
         font-size: 5vh;
